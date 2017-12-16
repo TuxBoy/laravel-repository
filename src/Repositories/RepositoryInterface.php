@@ -1,6 +1,6 @@
 <?php
 
-namespace TuxBoy\Repositories;
+namespace TuxBoy\Repository\Repositories;
 
 interface RepositoryInterface
 {

@@ -1,3 +1,5 @@
 <?php
 
-return [];
+return [
+    'max_per_pages' => 10,
+];

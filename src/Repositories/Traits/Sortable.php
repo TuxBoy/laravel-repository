@@ -1,6 +1,6 @@
 <?php
 
-namespace TuxBoy\Repositories\Traits;
+namespace TuxBoy\Repository\Repositories\Traits;
 
 trait Sortable
 {

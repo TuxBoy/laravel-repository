@@ -1,11 +1,11 @@
 <?php
 
-namespace TuxBoy\Repositories;
+namespace TuxBoy\Repository\Repositories;
 
-use TuxBoy\Repositories\Traits\Relations;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
+use TuxBoy\Repository\Repositories\Traits\Relations;
 
 abstract class BaseRepository implements RepositoryInterface
 {
@@ -33,7 +33,7 @@ abstract class BaseRepository implements RepositoryInterface
     public function paginated()
     {
         return $this->model->orderBy($this->sortBy, $this->sortOrder)
-            ->paginate(Config::get('paginate.max_per_pages'));
+            ->paginate(Config::get('tuxboy-repository.max_per_pages'));
     }
 
     /**
