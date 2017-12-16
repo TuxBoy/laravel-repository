@@ -1,0 +1,22 @@
+{
+    "name": "tuxboy/laravel-repository",
+    "description": "Allows you to call Eloquent via a repository class",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["Laravel", "Repository", "Eloquent"],
+    "authors": [
+        {
+            "name": "Benoît Mallo",
+            "email": "benoit.mallo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "TuxBoy\\": "src"
+        }
+    }
+}
