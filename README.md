@@ -13,7 +13,7 @@ Then add Service provider to `config/app.php`
 ```php
 'providers' => [
     // ...
-    
+    \TuxBoy\Repository\RepositoryServiceProvider::class,
 ];
 ```
 
